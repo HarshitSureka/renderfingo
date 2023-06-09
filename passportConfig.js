@@ -28,7 +28,7 @@ module.exports = function (passport) {
 		// options for google strategy
 		clientID: process.env.GOOGLE_CLIENT_ID,
 		clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-		callbackURL: "https://tryfingo.com/auth/login-google/callback"		//google callback url, same as the one added in Google API page
+		callbackURL: "https://renderfingo.onrender.com/auth/login-google/callback"		//google callback url, same as the one added in Google API page
 	},
 	function(accessToken, refreshToken, profile, done) {
 		// passport callback function
